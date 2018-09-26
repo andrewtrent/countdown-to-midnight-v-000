@@ -1,5 +1,4 @@
-#write your code here
-require 'pry'
+
 def countdown(int)
   while int >= 0
     puts "#{int} SECOND(S)!"
@@ -16,4 +15,3 @@ def countdown_with_sleep(int)
   end
   puts "HAPPY NEW YEAR!"
 end
-pry.binding
